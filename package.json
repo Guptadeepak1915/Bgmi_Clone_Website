@@ -1,6 +1,5 @@
 {
   "homepage": "https://Guptadeepak1915.github.io/Bgmi_Clone_Website",
-
   "name": "react",
   "private": true,
   "version": "0.0.0",
@@ -12,7 +11,6 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-
   },
   "dependencies": {
     "react": "^19.0.0",
