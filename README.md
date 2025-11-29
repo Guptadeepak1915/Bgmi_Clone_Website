@@ -102,10 +102,10 @@ All images and brand names belong to their respective owners (BGMI).
 ---
 🖼️ Project Screenshots
 
-![Home Page](./screenshots/Frontpage.png)
-![News Section](./screenshots/newsSection.png)
-![Partners Section](./screenshots/Partener_Sec.png)
-![Footer View](./screenshots/footerSection.png)
+![Home Page](./screenshots/1Frontpage.png)
+![News Section](./screenshots/2newsSection.png)
+![Partners Section](./screenshots/3Partener_Sec.png)
+![Footer View](./screenshots/4footerSection.png)
 
 
 
