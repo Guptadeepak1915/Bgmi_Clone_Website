@@ -100,7 +100,7 @@ This project is made **only for educational purposes**.
 All images and brand names belong to their respective owners (BGMI).
 
 ---
-🖼️ Project Screenshots
+## 🖼️ Project Screenshots
 ---
 
 ![Home Page](./screenshots/1Frontpage.png)
