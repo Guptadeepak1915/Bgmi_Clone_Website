@@ -101,18 +101,13 @@ All images and brand names belong to their respective owners (BGMI).
 
 ---
 🖼️ Project Screenshots
+![Home Page](./screenshots/FrontSection.png)
+![News Section](./screenshots/newsSection.png)
+![Partners Section](./screenshots/partner_Sec.png)
+![Footer View](./screenshots/footerSection.png)
 
-/screenshots/FrontSection.png
-/screenshots/newsSection.png
-/screenshots/partner Sec.png
-/screenshots/footerSection.png
-🔹 Home Page
 
-🔹 News Section
 
-🔹 Partners Section
-
-🔹 Mobile View
 
 
 
