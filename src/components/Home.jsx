@@ -20,9 +20,10 @@ const App = () => {
             <a href="https://play.google.com/store/apps/details?id=com.pubg.imobile&hl=en-US" target="_black"><p>Download From <big><b>Google Play Store</b></big></p></a>
           </div>
           </div>
-          <div >
-          <h2 class="tag1">Buy UC At UniPin</h2>
-            <a href="https://battlegrounds-mobile-india.en.uptodown.com/android" target="_blank"><h2 class="tag2">APK DOWNLOAD</h2></a>
+          <div className='tags'>
+          <p class="tag1">Buy UC At UniPin</p>
+            <a href="https://battlegrounds-mobile-india.en.uptodown.com/android" target="_blank">
+            <p class="tag2">APK DOWNLOAD</p></a>
           </div>
         </div>
       </div>
@@ -32,7 +33,7 @@ const App = () => {
   
       <div class="main-news-div">
           <div class="news-divs">
-           <a href="https://www.battlegroundsmobileindia.com/news_view/872"> <img class="news-pics" src="https://www.battlegroundsmobileindia.com/data/board/2/872/Banner_Notice_updated.jpg" alt="not found" /></a>
+           <a href="https://www.battlegroundsmobileindia.com/news_view/872"> <img class="news-pics" src="https://www.battlegroundsmobileindia.com/data/board/2/872/Banner_Notice_updated.jpg" alt="Image not found" /></a>
             <p>Notice</p>
               <h4>3.5 Popularity Battle 1v1 Round 4 Exetension</h4>
               <h3>2024-12-03</h3>
