@@ -195,3 +195,103 @@ a{
 padding: 10px;
 text-align:right;
 }
+
+/* ========== MOBILE VIEW (max-width: 768px) ========== */
+@media (max-width: 768px) {
+
+  .heading h1{
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .stores{
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .Appstore,
+  .playstore{
+    width: 160px;
+    font-size: 16px;
+  }
+
+  .tag1,
+  .tag2{
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .main-news-div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .news-divs{
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .news-pics{
+    width: 100%;
+  }
+
+  .partner-main-div{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .partner-div{
+    width: 90%;
+    height: auto;
+  }
+
+  .partner-img{
+    width: 100%;
+    height: auto;
+  }
+
+  .under-bottom-content{
+    width: 90%;
+  }
+
+  .footer-div>ul{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-div ul li{
+    text-align: center;
+  }
+}
+
+
+/* ========== TABLET VIEW (max-width: 1024px) ========== */
+@media (max-width: 1024px) {
+
+  .heading h1{
+    font-size: 48px;
+  }
+
+  .main-news-div{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .news-divs{
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+  .partner-main-div{
+    flex-wrap: wrap;
+  }
+
+  .partner-div{
+    width: 45%;
+    margin-bottom: 20px;
+  }
+
+}
