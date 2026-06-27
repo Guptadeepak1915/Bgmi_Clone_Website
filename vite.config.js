@@ -5,4 +5,5 @@ import {qrcode} from 'vite-plugin-qrcode'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),qrcode()],
+  base:'/Bgmi_Clone_Website/'
 })
