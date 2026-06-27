@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div class="main-div">
       <div class='nav-div'>
-      <Router>
+      <Router basename="/Bgmi_Clone_Website">
       <nav class='nav-elements'>
         <div><img src="https://www.battlegroundsmobileindia.com/common/img/common/logo.png" alt="not found" /></div>
         <span><Link to='/' class="link">HOME</Link></span>
@@ -29,7 +29,7 @@ const App = () => {
       </nav>
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='news' element={<News/>}/>
+        <Route path='/news' element={<News/>}/>
       </Routes>
       </Router>
     </div>
