@@ -1,13 +1,13 @@
 import React from 'react'
 import './App.css'
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from '/src/components/Home.jsx'
 import News from '/src/components/News.jsx'
 const App = () => {
   return (
     <div class="main-div">
       <div class='nav-div'>
-      <Router basename="/Bgmi_Clone_Website">
+      <Router >
       <nav class='nav-elements'>
         <div><img src="https://www.battlegroundsmobileindia.com/common/img/common/logo.png" alt="not found" /></div>
         <span><Link to='/' class="link">HOME</Link></span>
