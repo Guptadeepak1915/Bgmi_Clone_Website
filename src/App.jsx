@@ -11,11 +11,11 @@ const App = () => {
       <nav class='nav-elements'>
         <div><img src="https://www.battlegroundsmobileindia.com/common/img/common/logo.png" alt="not found" /></div>
         <span><Link to='/' class="link">HOME</Link></span>
-        <span><Link to='news' class="link">NEWS</Link></span>
-        <span><Link to='redeem' class="link">REDEEM</Link></span>
-        <span><Link to='esports'class="link">ESPORTS</Link></span>
-        <span><Link to ='support'class="link">SUPPORT</Link></span>
-        <span><Link to='game' class="link">GAME RESPONSIBLY</Link></span>
+        <span><Link to='/news' class="link">NEWS</Link></span>
+        <span><Link to='/redeem' class="link">REDEEM</Link></span>
+        <span><Link to='/esports'class="link">ESPORTS</Link></span>
+        <span><Link to ='/support'class="link">SUPPORT</Link></span>
+        <span><Link to='/game' class="link">GAME RESPONSIBLY</Link></span>
         <div class='logo-div'>
           <img src="https://www.battlegroundsmobileindia.com/common/img/btn/sns_d_w.png" alt="not found" />
           <a href="https://www.facebook.com/BattlegroundsMobileIN/"><img src="https://www.battlegroundsmobileindia.com/common/img/btn/sns_f_w.png" alt="not found" /></a>
