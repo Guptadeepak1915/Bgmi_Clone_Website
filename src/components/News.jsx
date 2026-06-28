@@ -9,7 +9,7 @@ const News = () => {
   }, []);
   async function fetchNews() {
     const response = await fetch(
-      "https://api.currentsapi.services/v1/latest-news?apiKey=5Lv9L6dRcIJVFhwoArjMvNnyYf1xev1ZrJzMX6fhJIhXxiRw",
+      "https://api.currentsapi.services/v1/search?keywords=PUBG%20Mobile&apiKey=5Lv9L6dRcIJVFhwoArjMvNnyYf1xev1ZrJzMX6fhJIhXxiRw",
     );
     const data = await response.json();
     console.log(data);
@@ -18,7 +18,7 @@ const News = () => {
   }
   if (loading) {
     return (
-      <div class="loader-container">
+      <div className="loader-container">
         <div class="loader"></div>
       </div>
     );

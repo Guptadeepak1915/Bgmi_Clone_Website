@@ -23,8 +23,8 @@ const App = () => {
           <a href="https://www.youtube.com/c/BattlegroundsMobile_IN"> <img src="https://www.battlegroundsmobileindia.com/common/img/btn/sns_y_w.png" alt="not found" /></a>
         </div>
         <div class='download-div'>
-          <p class="ios">IOS Download</p>
-          <p class="android">Android Downloads</p>
+          <p class="ios">IOS &#11015;</p>
+          <p class="android">Android &#11015;</p>
         </div>
       </nav>
       <Routes>
