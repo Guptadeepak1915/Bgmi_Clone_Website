@@ -8,9 +8,8 @@ const News = () => {
     fetchNews();
   }, []);
   async function fetchNews() {
-    const response = await fetch(
-      "https://api.currentsapi.services/v1/search?keywords=PUBG%20Mobile&apiKey=5Lv9L6dRcIJVFhwoArjMvNnyYf1xev1ZrJzMX6fhJIhXxiRw",
-    );
+    const News_Url =import.meta.env.VITE_NEWS_API_URL;
+    const response = await fetch(News_Url);
     const data = await response.json();
     console.log(data);
     setNews(data.news);
