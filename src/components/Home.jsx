@@ -1,10 +1,21 @@
-import React from "react";
+import {React , useEffect, useState} from "react";
 import "./Home.css";
 
 const App = () => {
   const heading = {
     color: "white",
   };
+  const [news, setNews] =useState([]);
+  useEffect(()=>{
+    NEWS();
+  },[]);
+  async function NEWS(){
+    const response = await fetch(import.meta.env.VITE_HOME_NEWS_API_URL);
+    const data=await response.json();
+    setNews(data.news);
+    console.log(data.news);
+  }
+  
   return (
     <div>
       <div className="front-photo">
@@ -57,20 +68,27 @@ const App = () => {
       </div>
 
       <div className="main-news-div">
-        <div className="news-divs">
-          <a href="https://www.battlegroundsmobileindia.com/news_view/872">
+        {
+          news.map((item,index)=>{
+            return (
+            <div className="news-divs" key={index}>
+          <a href={item.url}  target="_blank" rel="noopener noreferrer">
             {" "}
             <img
               className="news-pics"
-              src="https://www.battlegroundsmobileindia.com/data/board/2/872/Banner_Notice_updated.jpg"
-              alt="Image not found"
+              src={item.image || "https://www.battlegroundsmobileindia.com/data/board/2/872/3_5_Web_banner.png"}
+              alt={item.title || "Image not found"}
             />
           </a>
-          <p>Notice</p>
-          <h4>3.5 Popularity Battle 1v1 Round 4 Exetension</h4>
-          <h3>2024-12-03</h3>
-        </div>
-        <div className="news-divs">
+          <p>{item.category}</p>
+          <h3>{item.title}</h3>
+          <h4>{item.description}</h4>
+          <h3>{item.published}</h3>
+        </div>)
+          })
+        }
+        
+        {/* <div className="news-divs">
           <a href="https://www.battlegroundsmobileindia.com/news_view/873">
             <img
               className="news-pics"
@@ -81,8 +99,8 @@ const App = () => {
           <p>Patch notes</p>
           <h4>3.6 Update</h4>
           <h3>2025-01-16</h3>
-        </div>
-        <div className="news-divs">
+        </div> */}
+        {/* <div className="news-divs">
           <img
             src="https://www.battlegroundsmobileindia.com/data/board/2/873/3_6_Web_banner.png"
             alt="not found"
@@ -91,7 +109,7 @@ const App = () => {
           <p>Notice</p>
           <h4>Motor Cruise Draw Pricing Changes</h4>
           <h3>2025-01-16</h3>
-        </div>
+        </div> */}
       </div>
       <div className="partner-bg-div">
         <h1>PARTNERS</h1>
